@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Criptografia</title>
+    <link rel="stylesheet" href="thecoolstyles/niceindex.css">
+    <script src="thecoolscripts/niceindex.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="recebedora" style="background-color: rgba(255, 0, 0, 0.589);">
+            <form name="frm">
+                Mensagem Aberta: <input type="text" name="openmsg"> <br>
+                <input type="button" value="Encriptar" onclick="encriptar()"> <br>
+                Mensagem Fechada: <input type="text" name="closedmsg"> <br>
+                <input type="button" value="Desencriptar" onclick="desen()"> <br>
+
+            </form>
+        </div>
+        <div class="enviadora" style="background-color: rgba(65, 136, 7, 0.774);">
+            <p style="margin: 10px; color: white;">Mensagem encriptada: </p>
+            <div class="resultado">
+                <p id="encriptada">Mensagem aqui!</p>
+            </div>
+            <p style="margin: 10px; color: white;">Mensagem desencriptada: </p>
+            <div class="resultado">
+                <p id="desencriptada">Mensagem aqui!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
